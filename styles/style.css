@@ -1,1 +1,63 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* nyanza: (text):       #d6f8d6ff;    
+* paynes-gray (primary)      #5d737eff;
+* cambridge-blue (secondary)    #7fc6a4ff;
+* davys-gray (accent)         #55505cff;
+*/
+
+.bg-info {
+    background-color: #7fc6a4ff !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #5d737eff;
+}
+
+.btn-info {
+    color: #d6f8d6ff;
+    background-color: #7fc6a4ff;
+    border-color: #5d737eff;
+}
+
+.btn-primary {
+    color: #d6f8d6ff;
+    font-size: 150%;
+    background-color: #5d737eff;
+    border-color: #55505cff;
+    border-width: thick;
+}
+
+body {
+    background-color: #d6f8d6ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-brand {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
